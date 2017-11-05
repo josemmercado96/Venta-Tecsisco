@@ -5,6 +5,9 @@
  */
 package venta.tecsisco;
 
+import capa.dato.Conection;
+import java.sql.Connection;
+
 /**
  *
  * @author Jose Maria
@@ -16,6 +19,9 @@ public class VentaTecsisco {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Conection con;
+        con = new Conection();
+        Connection reg = con.getConnection();
     }
     
 }
